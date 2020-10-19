@@ -1,6 +1,6 @@
 # Secret Santa generator
 
-Overly complicated secret santa generator. 
+Needlessly complicated secret santa generator. 
 
 Uses Twilio to send the results via text, because my family don't have emails and there doesn't seem to be an app that sends out texts.
 
@@ -37,6 +37,6 @@ person3,+443333333333
 
 ### 5. Run the program
 
-`python secret-santa.py <path_to_phone_numbers_file> <path_to_config_file>
+`python secret-santa.py <path_to_phone_numbers_file> <path_to_config_file>`
 
 Texts will be sent automatically. The matches will be saved to a file called `DO_NOT_OPEN__Secret_Santa.csv`, don't open this if you want to keep it secret!
