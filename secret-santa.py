@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # send texts
     for entry in santa_list:
         phone_num, santa_from, santa_to = entry
-        #send_msg(phone_num, santa_from, santa_to, config)
+        send_msg(phone_num, santa_from, santa_to, config)
 
     # make hard copy
     with open('DO_NOT_OPEN__Secret_Santa.csv', 'w') as f:
